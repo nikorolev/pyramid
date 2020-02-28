@@ -1,7 +1,9 @@
 # pyramid
 Repository for JavaScript program that verifies whether a word is a pyramid.
 
-Repository contains index.js file. It is NodeJS web server that.
+Repository contains:
+
+1) index.js file. It is NodeJS web server that.
 Steps to run it:
 1. Install NodeJS.
 2. Create a directory <dir name> and copy index.js file there.
@@ -10,3 +12,5 @@ Steps to run it:
 5. Start the server: node index.js. The web server has port 8090.
 6. Send POST HTTP request with URL "localhost:8090/pyramid/" that has body in JSON format: {"input": "string to be verified as a pyramid"}
 7. The response will have JSON format: {"result": true/false}
+
+2) Pyramid.java file. It is Java class implementing the same task of checking a word pyramid.
